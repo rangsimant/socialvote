@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace SocialVoteTH\Events;
 
 abstract class Event
 {

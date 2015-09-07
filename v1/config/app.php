@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Bangkok',
 
     /*
     |--------------------------------------------------------------------------
@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        SocialVoteTH\Providers\AppServiceProvider::class,
+        SocialVoteTH\Providers\AuthServiceProvider::class,
+        SocialVoteTH\Providers\EventServiceProvider::class,
+        SocialVoteTH\Providers\RouteServiceProvider::class,
 
     ],
 

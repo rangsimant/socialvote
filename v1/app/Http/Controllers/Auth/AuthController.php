@@ -1,15 +1,17 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace SocialVoteTH\Http\Controllers\Auth;
 
-use App\User;
+use SocialVoteTH\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use SocialVoteTH\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
+    protected $redirectPath = '/';
+    protected $loginPath = '/login';
     /*
     |--------------------------------------------------------------------------
     | Registration & Login Controller

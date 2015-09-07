@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace SocialVoteTH\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
